@@ -92,8 +92,11 @@ h1 {
 }
 
 .social {
+    position: relative;
     display: block;
     width: 30px;
+    left: 90px;
+    bottom: 30px;
 }
 
 footer {
@@ -116,10 +119,25 @@ footer {
 
 .promo {
     position: fixed;
-    background-color: gray;
-    left: 1000px;
+    background-color: purple;
+    color: white;
+    left: 1100px;
     top: 230px;
     width: 150px;
+    height: 75px;
+    font-weight: normal;
+    border: 0px solid purple;
+    border-radius: 10px;
+}
+
+.promo:hover {
+    background-color: plum;
+    font-weight: bolder;
+}
+
+.promo-text {
+    position: relative;
+    left: 2px;
 }
 
 .action::after {
